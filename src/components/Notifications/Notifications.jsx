@@ -12,6 +12,8 @@ export const Notifications = ({ data }) => {
       activity={userData.activity}
       status={userData.status}
       isUnread={userData.unread}
+      private_message={userData.private_message}
+      picture={userData.picture}
     />
   ));
 

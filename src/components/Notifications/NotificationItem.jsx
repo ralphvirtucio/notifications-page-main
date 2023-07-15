@@ -7,6 +7,8 @@ export const NotificationItem = ({
   activity,
   status,
   isUnread,
+  private_message,
+  picture,
 }) => {
   const notificationBGUnread = isUnread
     ? 'notifications__list-item unread'
@@ -30,7 +32,25 @@ export const NotificationItem = ({
           <span className={notificationUnread}></span>
         </p>
         <p className='notifications__status'>{status} ago</p>
+
+        {private_message === '' ? (
+          ''
+        ) : (
+          <p className='notifications__private-message'>
+            Hello, thanks for setting up the Chess Club. I&apos;ve been a member
+            for a few weeks now and I&apos;m already having lots of fun and
+            improving my game.
+          </p>
+        )}
       </div>
+
+      {picture === '' ? (
+        ''
+      ) : (
+        <div className='commented_picture'>
+          <img src={picture} alt='Commented' />
+        </div>
+      )}
     </li>
   );
 };

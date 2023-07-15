@@ -1,7 +1,7 @@
 [
   {
     "id": "8dd75500-af3b-5f8d-829d-5a6f53468b59",
-    "img_url": "/avatar-mark-webber.webp",
+    "img_url": "../public/images/avatar-mark-webber.webp",
     "username": "Mark Webber",
     "activity": "reacted to your recent post",
     "message": "My first tournament today!",
@@ -12,7 +12,7 @@
   },
   {
     "id": "e6fe1310-2743-5ab9-a364-2ba323709473",
-    "img_url": "/avatar-angela-gray.webp",
+    "img_url": "../public/images/avatar-angela-gray.webp",
     "username": "Angela Gray",
     "activity": "followed you",
     "message": "",
@@ -23,7 +23,7 @@
   },
   {
     "id": "dc365aaa-e460-56f1-9325-8404ac19246e",
-    "img_url": "/avatar-jacob-thompson.webp",
+    "img_url": "../public/images/avatar-jacob-thompson.webp",
     "username": "Jacob Thompson",
     "activity": "has joined your group",
     "message": "Chess Club",
@@ -34,7 +34,7 @@
   },
   {
     "id": "e2757a56-207c-562d-bfa3-838a218d3b1f",
-    "img_url": "/avatar-rizky-hasanuddin.webp",
+    "img_url": "../public/images/avatar-rizky-hasanuddin.webp",
     "username": "Rizky Hasanuddin",
     "activity": "sent you a private message",
     "message": "",
@@ -45,18 +45,18 @@
   },
   {
     "id": "6d3f641f-b039-5de6-b7d7-6f43ffd171f7",
-    "img_url": "/avatar-kimberly-smith.webp",
+    "img_url": "../public/images/avatar-kimberly-smith.webp",
     "username": "Kimberly Smith",
     "activity": "commented on your picture",
     "message": "",
     "status": "1 week",
     "private_message": "",
     "unread": false,
-    "picture": "/image-chess.webp"
+    "picture": "../public/images/image-chess.webp"
   },
   {
     "id": "2a2e07a2-e0c6-5f91-bdfd-8ba89df4dfa5",
-    "img_url": "/avatar-nathan-peterson.webp",
+    "img_url": "../public/images/avatar-nathan-peterson.webp",
     "username": "Nathan Peterson",
     "activity": "reacted to your recent post",
     "message": "5 end-game strategies to increase your win rate",
@@ -67,7 +67,7 @@
   },
   {
     "id": "94ee5f3e-e11f-5639-b069-eec70e3f4dc5",
-    "img_url": "/avatar-anna-kim.webp",
+    "img_url": "../public/images/avatar-anna-kim.webp",
     "username": "Anna Kim",
     "activity": "left the group",
     "message": "Chess Club",

@@ -40,7 +40,15 @@
   }
 
   &__status {
-    margin-block-start: 0.5rem;
+    margin-block-start: 0.25rem;
+  }
+
+  &__private-message {
+    margin-block-start: 1rem;
+    border: 1px solid $neutral-clr-light-grayishblue-2;
+    padding: 1rem;
+    border-radius: 4px;
+    color: $neutral-clr-grayishblue;
   }
 }
 
@@ -64,4 +72,8 @@
 
 .notifications__read {
   display: none;
+}
+
+.commented_picture {
+  width: 50px;
 }
