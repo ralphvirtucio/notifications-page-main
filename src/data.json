@@ -16,7 +16,7 @@
     "username": "Angela Gray",
     "activity": "followed you",
     "message": "",
-    "active-time": "5m",
+    "status": "5m",
     "private_message": "",
     "unread": true,
     "picture": ""
@@ -27,7 +27,7 @@
     "username": "Jacob Thompson",
     "activity": "has joined your group",
     "message": "Chess Club",
-    "active-time": "1 day",
+    "status": "1 day",
     "private_message": "",
     "unread": true,
     "picture": ""
@@ -38,7 +38,7 @@
     "username": "Rizky Hasanuddin",
     "activity": "sent you a private message",
     "message": "",
-    "active-time": "5 days",
+    "status": "5 days",
     "private_message": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
     "unread": false,
     "picture": ""
@@ -49,7 +49,7 @@
     "username": "Kimberly Smith",
     "activity": "commented on your picture",
     "message": "",
-    "active-time": "1 week",
+    "status": "1 week",
     "private_message": "",
     "unread": false,
     "picture": "/image-chess.webp"
@@ -60,7 +60,7 @@
     "username": "Nathan Peterson",
     "activity": "reacted to your recent post",
     "message": "5 end-game strategies to increase your win rate",
-    "active-time": "2 weeks",
+    "status": "2 weeks",
     "private_message": "",
     "unread": false,
     "picture": ""
@@ -71,7 +71,7 @@
     "username": "Anna Kim",
     "activity": "left the group",
     "message": "Chess Club",
-    "active-time": "2 weeks",
+    "status": "2 weeks",
     "private_message": "",
     "unread": false,
     "picture": ""

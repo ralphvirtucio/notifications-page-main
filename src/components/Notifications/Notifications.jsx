@@ -11,6 +11,7 @@ export const Notifications = ({ data }) => {
       message={userData.message}
       activity={userData.activity}
       status={userData.status}
+      isUnread={userData.unread}
     />
   ));
 
