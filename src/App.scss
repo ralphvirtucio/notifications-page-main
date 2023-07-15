@@ -1,4 +1,39 @@
-.heading {
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  // color: $primary-clr-blue;
+@import './_variables.scss';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: auto;
+  max-width: 90%;
+  margin-block: 2rem;
+  width: 30rem;
+  align-items: center;
+
+  .main-heading__container {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+
+    h1 {
+      color: #111;
+      // font-size: 1rem;
+      font-size: 1.25rem;
+    }
+
+    .notification__badge {
+      background-color: $primary-clr-blue;
+      color: $neutral-clr-white;
+      border-radius: 8px;
+      padding: 0.2rem 0.8rem;
+    }
+  }
+
+  .mark-all-read__container {
+    button {
+      background-color: #fff;
+      border: none;
+      color: $neutral-clr-v-darkblue;
+      cursor: pointer;
+    }
+  }
 }

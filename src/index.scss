@@ -37,6 +37,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 /* A elements that don't have a class get default styles */
@@ -74,17 +75,3 @@ select {
     scroll-behavior: auto !important;
   }
 }
-
-$primary-clr-red: hsl(1, 90%, 64%);
-$primary-clr-blue: hsl(219, 85%, 26%);
-
-$neutral-clr-white: hsl(0, 0%, 100%);
-$neutral-clr-vlight-grayblue: hsl(210, 60%, 98%);
-$neutral-clr-light-grayishblue-1: hsl(211, 68%, 94%);
-$neutral-clr-light-grayishblue-2: hsl(205, 33%, 90%);
-$neutral-clr-grayishblue: hsl(219, 14%, 63%);
-$neutral-clr-dark-grayishblue: hsl(219, 14%, 63%);
-$neutral-clr-v-darkblue: hsl(219, 14%, 63%);
-
-$fw-500: 500;
-$fw-600: 600;
