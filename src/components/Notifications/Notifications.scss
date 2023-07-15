@@ -1,0 +1,50 @@
+@import '../../variables.scss';
+
+.notifications {
+  width: 30rem;
+  max-width: 90%;
+  margin-inline: auto;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-block-end: 2rem;
+
+    &-item {
+      display: flex;
+      gap: 1rem;
+      padding: 1rem;
+      background-color: $neutral-clr-vlight-grayblue;
+      border-radius: 12px;
+      color: $neutral-clr-v-darkblue;
+      // font-size: 1rem;
+      font-size: 0.85rem;
+      line-height: 1.2;
+    }
+  }
+
+  &__username {
+    color: #111;
+  }
+
+  &__activity {
+    margin-inline: 0.2rem;
+  }
+
+  &__message {
+    font-weight: 600;
+  }
+
+  &__status {
+    margin-block-start: 0.5rem;
+  }
+}
+
+.user__photo {
+  flex: 0 0 auto;
+
+  img {
+    width: 35px;
+  }
+}

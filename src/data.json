@@ -1,0 +1,79 @@
+[
+  {
+    "id": "8dd75500-af3b-5f8d-829d-5a6f53468b59",
+    "img_url": "/avatar-mark-webber.webp",
+    "username": "Mark Webber",
+    "activity": "reacted to your recent post",
+    "message": "My first tournament today!",
+    "status": "1m",
+    "private_message": "",
+    "unread": true,
+    "picture": ""
+  },
+  {
+    "id": "e6fe1310-2743-5ab9-a364-2ba323709473",
+    "img_url": "/avatar-angela-gray.webp",
+    "username": "Angela Gray",
+    "activity": "followed you",
+    "message": "",
+    "active-time": "5m",
+    "private_message": "",
+    "unread": true,
+    "picture": ""
+  },
+  {
+    "id": "dc365aaa-e460-56f1-9325-8404ac19246e",
+    "img_url": "/avatar-jacob-thompson.webp",
+    "username": "Jacob Thompson",
+    "activity": "has joined your group",
+    "message": "Chess Club",
+    "active-time": "1 day",
+    "private_message": "",
+    "unread": true,
+    "picture": ""
+  },
+  {
+    "id": "e2757a56-207c-562d-bfa3-838a218d3b1f",
+    "img_url": "/avatar-rizky-hasanuddin.webp",
+    "username": "Rizky Hasanuddin",
+    "activity": "sent you a private message",
+    "message": "",
+    "active-time": "5 days",
+    "private_message": "Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
+    "unread": false,
+    "picture": ""
+  },
+  {
+    "id": "6d3f641f-b039-5de6-b7d7-6f43ffd171f7",
+    "img_url": "/avatar-kimberly-smith.webp",
+    "username": "Kimberly Smith",
+    "activity": "commented on your picture",
+    "message": "",
+    "active-time": "1 week",
+    "private_message": "",
+    "unread": false,
+    "picture": "/image-chess.webp"
+  },
+  {
+    "id": "2a2e07a2-e0c6-5f91-bdfd-8ba89df4dfa5",
+    "img_url": "/avatar-nathan-peterson.webp",
+    "username": "Nathan Peterson",
+    "activity": "reacted to your recent post",
+    "message": "5 end-game strategies to increase your win rate",
+    "active-time": "2 weeks",
+    "private_message": "",
+    "unread": false,
+    "picture": ""
+  },
+  {
+    "id": "94ee5f3e-e11f-5639-b069-eec70e3f4dc5",
+    "img_url": "/avatar-anna-kim.webp",
+    "username": "Anna Kim",
+    "activity": "left the group",
+    "message": "Chess Club",
+    "active-time": "2 weeks",
+    "private_message": "",
+    "unread": false,
+    "picture": ""
+  }
+]

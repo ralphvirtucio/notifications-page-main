@@ -1,10 +1,12 @@
-import { Fragment } from 'react';
+import { Fragment, useState } from 'react';
 import './App.scss';
-import mark_photo from './assets/images/avatar-mark-webber.webp';
-
+import data from './data.json';
+import { Notifications } from './components/Notifications/Notifications';
 //! Notification Badge will be a state of how many unread message on the notifications
 
 const App = () => {
+  const [userData, setUserData] = useState(data);
+
   return (
     <Fragment>
       <header className='header'>
@@ -17,23 +19,8 @@ const App = () => {
         </div>
       </header>
 
-      <main>
-        <ul className='notifications__list'>
-          <li className='notification__list-item'>
-            <div className='user__photo'>
-              <img src={mark_photo} alt='Mark Webber' />
-            </div>
-
-            <div className='notification__content'>
-              <p className='notifcation__feed'>
-                <strong>Mark Webber</strong> reacted to your recent post{' '}
-                <em>My first tournament!</em>{' '}
-                <span className='notification__status'>unread</span>
-              </p>
-              <p className='notification__activity'>1m ago</p>
-            </div>
-          </li>
-        </ul>
+      <main className='notifications'>
+        <Notifications data={userData} />
       </main>
     </Fragment>
   );
