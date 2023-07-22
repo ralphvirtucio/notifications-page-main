@@ -27,7 +27,7 @@ const App = () => {
   };
 
   return (
-    <Fragment>
+    <div className='container'>
       <header className='header'>
         <div className='main-heading__container'>
           <h1>Notifications</h1>{' '}
@@ -42,7 +42,7 @@ const App = () => {
       <main className='notifications'>
         <Notifications data={userData} />
       </main>
-    </Fragment>
+    </div>
   );
 };
 
